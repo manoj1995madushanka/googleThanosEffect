@@ -1,30 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chance/1.0.18/chance.min.js"></script>
-    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="crossorigin="anonymous"></script>
-    <script
-  src="https://code.jquery.com/ui/1.9.2/jquery-ui.min.js"
-  integrity="sha256-eEa1kEtgK9ZL6h60VXwDsJ2rxYCwfxi40VZ9E0XwoEA="
-  crossorigin="anonymous"></script>
-    <!-- <script src="setImage.js"></script> -->
-    <script src="process.js"></script>
-	<title>Thanos Effect</title>
-</head>
-<body>
-	<div class="navbar"><span>Thanos snapEffect</span></div>
-	<div class="wrapper">
-		<div class="content">
-        <img id="photo" src="default.png" height="600">
-       <!--  <input type="file" id="inputFile" size="10"/>
-        <button id="setImage">Set Image</button> -->
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="https://chancejs.com/chance.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+    
+    </head>
+    <body>
+
+      <div class="content">
+        <img src="http://pngimg.com/uploads/ironman/ironman_PNG62.png" height="400">
+        <!-- <img src="default.png" height="400"> -->
         <button id="start-btn">Snap!</button>
-     </div>
-	</div>
-	
-</body>
+      </div>  
+      <script type="text/javascript" src="process.js"></script>
+    </body>
 </html>
