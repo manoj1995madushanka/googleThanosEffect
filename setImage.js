@@ -2,9 +2,9 @@
     // Example of a document-ready block
     $(function(){
           // Get your file name here
-          var imgfilename = "...";
+          var imgfilename = ocument.getElementById("inputFile").name;
 
           // Set your file name
-          $('#imgLogo').attr('src', imgfilename);
+          $('#photo').attr('src', imgfilename);
     });
 </script>
